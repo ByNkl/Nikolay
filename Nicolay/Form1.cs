@@ -75,7 +75,9 @@ namespace Nicolay
                 while ((c_word = sr.ReadLine()) != null)
                 {
                     if (c_word == word)
+					{
                         return;
+					}
                 }
 
                 sr.Close();
